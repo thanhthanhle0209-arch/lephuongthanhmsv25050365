@@ -12,6 +12,13 @@ import project1Evidence5 from '@/assets/project1-evidence-5.png';
 import project1Evidence6 from '@/assets/project1-evidence-6.png';
 import project1Evidence7 from '@/assets/project1-evidence-7.png';
 
+// Import evidence images for project 2
+import project2Evidence1 from '@/assets/project2-evidence-1.png';
+import project2Evidence2 from '@/assets/project2-evidence-2.png';
+import project2Evidence3 from '@/assets/project2-evidence-3.png';
+import project2Evidence4 from '@/assets/project2-evidence-4.png';
+import project2Evidence5 from '@/assets/project2-evidence-5.png';
+
 const projectsData = [
   {
     number: 1,
@@ -59,7 +66,13 @@ const projectsData = [
         'Đánh giá độ tin cậy của mỗi nguồn thông tin dựa trên các tiêu chí: tác giả, cơ quan xuất bản, phương pháp nghiên cứu, trích dẫn, tính cập nhật.',
         'Tạo bảng tổng hợp các nguồn thông tin với đánh giá và xếp hạng độ tin cậy.',
       ],
-      evidence: 'Bảng so sánh 3 nguồn thông tin về chủ đề "Ứng dụng AI trong giáo dục": (1) Bài báo từ tạp chí IEEE, (2) Bài viết trên Wikipedia, (3) Bài đăng trên blog cá nhân. Mỗi nguồn được đánh giá theo 5 tiêu chí CRAAP.',
+      evidenceImages: [
+        project2Evidence1,
+        project2Evidence2,
+        project2Evidence3,
+        project2Evidence4,
+        project2Evidence5,
+      ],
       analysis: 'Kết quả cho thấy bài báo IEEE đạt điểm cao nhất về độ tin cậy (tác giả có uy tín, được peer-reviewed, dẫn nguồn đầy đủ). Wikipedia có thông tin tổng quan tốt nhưng cần kiểm chứng thêm. Blog cá nhân có giá trị tham khảo thấp nhất do thiếu kiểm chứng và có thể mang tính chủ quan cao.',
       lesson: 'Tư duy phản biện trong kỷ nguyên số không chỉ là "đừng tin vào mọi thứ bạn đọc" mà là biết cách đánh giá và so sánh các nguồn một cách có hệ thống. Kỹ năng này giúp tôi tránh được thông tin sai lệch và xây dựng nền tảng kiến thức vững chắc.',
     },
