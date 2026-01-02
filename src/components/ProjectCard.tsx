@@ -5,6 +5,7 @@ interface ProjectSection {
   icon: React.ReactNode;
   title: string;
   content: string | string[];
+  images?: string[];
 }
 
 interface ProjectCardProps {
@@ -14,7 +15,8 @@ interface ProjectCardProps {
   sections: {
     objective: string;
     method: string | string[];
-    evidence: string;
+    evidence?: string;
+    evidenceImages?: string[];
     analysis: string;
     lesson: string;
   };
@@ -27,7 +29,7 @@ const ProjectCard = ({ number, title, description, sections, defaultOpen = false
   const projectSections: ProjectSection[] = [
     { icon: <Target className="w-5 h-5" />, title: 'Mục tiêu bài học', content: sections.objective },
     { icon: <Wrench className="w-5 h-5" />, title: 'Cách thực hiện', content: sections.method },
-    { icon: <Image className="w-5 h-5" />, title: 'Minh chứng', content: sections.evidence },
+    { icon: <Image className="w-5 h-5" />, title: 'Minh chứng', content: sections.evidence || '', images: sections.evidenceImages },
     { icon: <BarChart3 className="w-5 h-5" />, title: 'Phân tích và đánh giá', content: sections.analysis },
     { icon: <Lightbulb className="w-5 h-5" />, title: 'Bài học rút ra', content: sections.lesson },
   ];
@@ -70,7 +72,19 @@ const ProjectCard = ({ number, title, description, sections, defaultOpen = false
                   <h4 className="font-display font-medium text-foreground">{section.title}</h4>
                 </div>
                 <div className="pl-11">
-                  {Array.isArray(section.content) ? (
+                  {section.images && section.images.length > 0 ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {section.images.map((img, i) => (
+                        <div key={i} className="rounded-lg overflow-hidden border border-border">
+                          <img 
+                            src={img} 
+                            alt={`Minh chứng ${i + 1}`} 
+                            className="w-full h-auto object-contain bg-muted/50"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  ) : Array.isArray(section.content) ? (
                     <ul className="space-y-2">
                       {section.content.map((item, i) => (
                         <li key={i} className="text-muted-foreground leading-relaxed flex items-start gap-2">
@@ -79,9 +93,9 @@ const ProjectCard = ({ number, title, description, sections, defaultOpen = false
                         </li>
                       ))}
                     </ul>
-                  ) : (
+                  ) : section.content ? (
                     <p className="text-muted-foreground leading-relaxed">{section.content}</p>
-                  )}
+                  ) : null}
                 </div>
               </div>
             ))}
