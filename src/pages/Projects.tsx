@@ -195,10 +195,11 @@ const projectsData = [
     sections: {
       objective: 'Hiểu sâu các vấn đề đạo đức khi sử dụng AI trong học tập, xây dựng bộ nguyên tắc cá nhân và cam kết liêm chính học thuật.',
       method: [
-        'Nghiên cứu các case study về vi phạm liêm chính học thuật liên quan đến AI',
-        'Tham khảo hướng dẫn sử dụng AI của các trường đại học hàng đầu',
-        'Suy ngẫm và xây dựng bộ nguyên tắc cá nhân',
-        'Ký cam kết liêm chính học thuật với bản thân',
+        'Nghiên cứu chính sách của trường đại học của bạn (hoặc một trường đại học lớn ở Việt Nam) về việc sử dụng AI trong học tập và nghiên cứu.',
+        'Chọn một nhiệm vụ học tập (viết bài luận, chuẩn bị thuyết trình, tổng hợp tài liệu) và thực hiện với sự hỗ trợ của AI: Ghi lại các prompt đã sử dụng, Ghi lại đầu ra của AI, Mô tả cách bạn đánh giá, chỉnh sửa và tích hợp đầu ra của AI, Trích dẫn việc sử dụng AI một cách minh bạch.',
+        'Phân tích các vấn đề đạo đức liên quan đến việc sử dụng AI trong học thuật: Ranh giới giữa hỗ trợ hợp lý và gian lận học thuật, Vấn đề về quyền sở hữu trí tuệ và trích dẫn, Tác động đến quá trình học tập và phát triển kỹ năng.',
+        'Xây dựng bộ nguyên tắc cá nhân (5-7 nguyên tắc) về cách sử dụng AI có trách nhiệm trong học tập.',
+        'Tạo một infographic minh họa "Sử dụng AI có trách nhiệm trong học thuật".',
       ],
       evidence: 'Văn bản "Nguyên tắc sử dụng AI có trách nhiệm" của bản thân, bao gồm 7 điều khoản cụ thể, kèm theo các ví dụ minh họa cho từng nguyên tắc.',
       analysis: 'Các vấn đề đạo đức chính khi sử dụng AI: đạo văn (sử dụng output AI mà không trích dẫn), gian lận (nộp bài hoàn toàn do AI tạo), thiếu minh bạch (không công khai việc sử dụng AI), phụ thuộc quá mức (mất khả năng tư duy độc lập). Việc sử dụng AI có trách nhiệm đòi hỏi sự cân bằng giữa tận dụng công nghệ và duy trì giá trị học thuật.',
