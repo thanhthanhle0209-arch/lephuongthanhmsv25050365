@@ -19,6 +19,17 @@ import project2Evidence3 from '@/assets/project2-evidence-3.png';
 import project2Evidence4 from '@/assets/project2-evidence-4.png';
 import project2Evidence5 from '@/assets/project2-evidence-5.png';
 
+// Import evidence images for project 3
+import project3Evidence1 from '@/assets/project3-evidence-1.png';
+import project3Evidence2 from '@/assets/project3-evidence-2.png';
+import project3Evidence3 from '@/assets/project3-evidence-3.png';
+import project3Evidence4 from '@/assets/project3-evidence-4.png';
+import project3Evidence5 from '@/assets/project3-evidence-5.png';
+import project3Evidence6 from '@/assets/project3-evidence-6.png';
+import project3Evidence7 from '@/assets/project3-evidence-7.png';
+import project3Evidence8 from '@/assets/project3-evidence-8.png';
+import project3Evidence9 from '@/assets/project3-evidence-9.png';
+import project3Evidence10 from '@/assets/project3-evidence-10.png';
 const projectsData = [
   {
     number: 1,
@@ -90,7 +101,18 @@ const projectsData = [
         'Phân tích lý do tại sao một số prompt hiệu quả hơn các prompt khác.',
         'Tổng hợp các nguyên tắc và mẹo viết prompt hiệu quả dựa trên kết quả thử nghiệm.',
       ],
-      evidence: 'So sánh hai prompt về cùng một chủ đề:\n\n• Prompt ban đầu: "Giải thích về machine learning"\n\n• Prompt cải tiến: "Hãy giải thích machine learning cho một sinh viên năm nhất ngành Kinh tế, sử dụng ví dụ về dự đoán giá cổ phiếu, trình bày theo 3 phần: định nghĩa, cách hoạt động, và ứng dụng thực tế. Độ dài khoảng 300 từ."',
+      evidenceImages: [
+        project3Evidence1,
+        project3Evidence2,
+        project3Evidence3,
+        project3Evidence4,
+        project3Evidence5,
+        project3Evidence6,
+        project3Evidence7,
+        project3Evidence8,
+        project3Evidence9,
+        project3Evidence10,
+      ],
       analysis: 'Prompt cải tiến cho kết quả tốt hơn rõ rệt: nội dung phù hợp với trình độ người đọc, ví dụ liên quan đến ngành học, cấu trúc rõ ràng dễ theo dõi. Trong khi prompt ban đầu cho câu trả lời quá chung chung, thiếu tập trung và khó áp dụng vào học tập.',
       lesson: 'Một prompt tốt cần 4 yếu tố: (1) Xác định đối tượng/ngữ cảnh, (2) Nêu rõ mục tiêu cụ thể, (3) Định hướng cấu trúc đầu ra, (4) Giới hạn phạm vi. AI là công cụ mạnh mẽ, nhưng chất lượng đầu ra phụ thuộc lớn vào cách chúng ta đặt câu hỏi.',
     },
