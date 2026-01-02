@@ -40,6 +40,15 @@ import project4Evidence5 from '@/assets/project4-evidence-5.png';
 import project4Evidence6 from '@/assets/project4-evidence-6.png';
 import project4Evidence7 from '@/assets/project4-evidence-7.png';
 
+// Import evidence images for project 5
+import project5Evidence1 from '@/assets/project5-evidence-1.png';
+import project5Evidence2 from '@/assets/project5-evidence-2.png';
+import project5Evidence3 from '@/assets/project5-evidence-3.png';
+import project5Evidence4 from '@/assets/project5-evidence-4.png';
+import project5Evidence5 from '@/assets/project5-evidence-5.png';
+import project5Evidence6 from '@/assets/project5-evidence-6.png';
+import project5Evidence7 from '@/assets/project5-evidence-7.png';
+
 const projectsData = [
   {
     number: 1,
@@ -166,7 +175,15 @@ const projectsData = [
         'Hoàn thiện dự án bằng cách kết hợp đầu ra của AI với đóng góp sáng tạo của riêng bạn.',
         'Viết phân tích về vai trò của AI trong quá trình sáng tạo, bao gồm: Những phần AI làm tốt và những phần còn hạn chế, Cách AI thay đổi quy trình sáng tạo của bạn, Các vấn đề đạo đức cần cân nhắc.',
       ],
-      evidence: 'Tài liệu quy trình sáng tạo gồm: (1) Mindmap ý tưởng ban đầu (do tôi tạo), (2) Outline được AI hỗ trợ mở rộng, (3) Bản nháp kịch bản, (4) Bản chỉnh sửa cuối với highlight các phần tôi thay đổi/bổ sung.',
+      evidenceImages: [
+        project5Evidence1,
+        project5Evidence2,
+        project5Evidence3,
+        project5Evidence4,
+        project5Evidence5,
+        project5Evidence6,
+        project5Evidence7,
+      ],
       analysis: 'Ưu điểm của AI: tăng tốc brainstorming (tiết kiệm 60% thời gian), gợi ý các góc nhìn mới, hỗ trợ cấu trúc nội dung logic. Hạn chế: nội dung thiếu chiều sâu cá nhân, đôi khi generic, cần fact-check kỹ. Vai trò của người học vẫn không thể thay thế: định hướng, đánh giá, và thêm "chất riêng" vào sản phẩm.',
       lesson: 'AI là người trợ lý sáng tạo tuyệt vời, nhưng không phải người sáng tạo. Sản phẩm cuối cùng vẫn cần dấu ấn và tư duy của con người để có giá trị và sự độc đáo. Công thức tốt nhất: Ý tưởng (Người) + Hỗ trợ (AI) + Hoàn thiện (Người) = Sản phẩm chất lượng.',
     },
