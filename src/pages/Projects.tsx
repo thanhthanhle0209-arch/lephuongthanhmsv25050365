@@ -53,10 +53,11 @@ const projectsData = [
     sections: {
       objective: 'Phát triển kỹ năng tìm kiếm thông tin học thuật hiệu quả, đánh giá độ tin cậy của nguồn và áp dụng tư duy phản biện khi tiếp cận thông tin trên môi trường số.',
       method: [
-        'Sử dụng Google Scholar với các toán tử tìm kiếm nâng cao (AND, OR, exact phrase)',
-        'Truy cập cơ sở dữ liệu học thuật qua thư viện điện tử của trường',
-        'Áp dụng bộ tiêu chí CRAAP (Currency, Relevance, Authority, Accuracy, Purpose) để đánh giá nguồn',
-        'So sánh thông tin từ nhiều nguồn để xác minh tính chính xác',
+        'Chọn một chủ đề liên quan đến ngành học của bạn.',
+        'Thực hiện tìm kiếm thông tin từ các nguồn: Cơ sở dữ liệu học thuật (Google Scholar, Microsoft Academic, CSDL của thư viện trường), Tạp chí khoa học chuyên ngành, Sách chuyên khảo, Các nguồn mở trên internet.',
+        'Thu thập ít nhất 10 tài liệu tham khảo liên quan đến chủ đề (bao gồm ít nhất 5 bài báo khoa học).',
+        'Đánh giá độ tin cậy của mỗi nguồn thông tin dựa trên các tiêu chí: tác giả, cơ quan xuất bản, phương pháp nghiên cứu, trích dẫn, tính cập nhật.',
+        'Tạo bảng tổng hợp các nguồn thông tin với đánh giá và xếp hạng độ tin cậy.',
       ],
       evidence: 'Bảng so sánh 3 nguồn thông tin về chủ đề "Ứng dụng AI trong giáo dục": (1) Bài báo từ tạp chí IEEE, (2) Bài viết trên Wikipedia, (3) Bài đăng trên blog cá nhân. Mỗi nguồn được đánh giá theo 5 tiêu chí CRAAP.',
       analysis: 'Kết quả cho thấy bài báo IEEE đạt điểm cao nhất về độ tin cậy (tác giả có uy tín, được peer-reviewed, dẫn nguồn đầy đủ). Wikipedia có thông tin tổng quan tốt nhưng cần kiểm chứng thêm. Blog cá nhân có giá trị tham khảo thấp nhất do thiếu kiểm chứng và có thể mang tính chủ quan cao.',
