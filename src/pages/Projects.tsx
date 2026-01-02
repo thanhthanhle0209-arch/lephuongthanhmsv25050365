@@ -3,6 +3,15 @@ import Footer from '@/components/Footer';
 import SectionHeader from '@/components/SectionHeader';
 import ProjectCard from '@/components/ProjectCard';
 
+// Import evidence images for project 1
+import project1Evidence1 from '@/assets/project1-evidence-1.png';
+import project1Evidence2 from '@/assets/project1-evidence-2.png';
+import project1Evidence3 from '@/assets/project1-evidence-3.png';
+import project1Evidence4 from '@/assets/project1-evidence-4.png';
+import project1Evidence5 from '@/assets/project1-evidence-5.png';
+import project1Evidence6 from '@/assets/project1-evidence-6.png';
+import project1Evidence7 from '@/assets/project1-evidence-7.png';
+
 const projectsData = [
   {
     number: 1,
@@ -16,7 +25,15 @@ const projectsData = [
         'Áp dụng quy tắc đặt tên: NgàyThángNăm_TênMôn_LoạiTàiLiệu_PhiênBản',
         'Thực hành tạo cấu trúc thư mục mẫu và di chuyển/sao chép tệp',
       ],
-      evidence: 'Ảnh chụp màn hình cấu trúc thư mục đã tạo, bao gồm thư mục gốc "HocTap_2024" với các thư mục con được tổ chức theo học kỳ và môn học. Mỗi thư mục môn học chứa các thư mục phụ: TaiLieu, BaiTap, DuAn, GhiChu.',
+      evidenceImages: [
+        project1Evidence1,
+        project1Evidence2,
+        project1Evidence3,
+        project1Evidence4,
+        project1Evidence5,
+        project1Evidence6,
+        project1Evidence7,
+      ],
       analysis: 'Việc tổ chức thư mục khoa học mang lại nhiều lợi ích thiết thực: tiết kiệm thời gian tìm kiếm tài liệu (giảm từ 5-10 phút xuống còn dưới 1 phút), giảm nguy cơ mất dữ liệu do nhầm lẫn, tạo thói quen làm việc chuyên nghiệp. Quy tắc đặt tên nhất quán giúp dễ dàng sắp xếp và lọc tệp theo thời gian hoặc phiên bản.',
       lesson: 'Bài học quan trọng nhất là "Tổ chức từ đầu, tiết kiệm về sau". Một hệ thống quản lý dữ liệu tốt không chỉ giúp học tập hiệu quả hơn mà còn là kỹ năng chuyên nghiệp cần thiết trong môi trường làm việc hiện đại.',
     },
