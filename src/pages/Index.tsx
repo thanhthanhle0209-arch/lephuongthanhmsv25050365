@@ -52,7 +52,7 @@ const Index = () => {
 
             <h1 className="heading-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 animate-slide-up animate-delay-100">
               Xin chào, tôi là{' '}
-              <span className="text-gradient">[Họ Tên]</span>
+              <span className="text-gradient">Lê Phương Thanh</span>
             </h1>
 
             <p className="text-xl text-muted-foreground leading-relaxed mb-8 animate-slide-up animate-delay-200">
@@ -97,7 +97,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Họ và tên</p>
-                  <p className="font-medium text-foreground">[Họ Tên Đầy Đủ]</p>
+                  <p className="font-medium text-foreground">Lê Phương Thanh</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Ngành học</p>
