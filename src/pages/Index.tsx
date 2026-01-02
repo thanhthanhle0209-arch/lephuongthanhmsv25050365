@@ -56,7 +56,7 @@ const Index = () => {
             </h1>
 
             <p className="text-xl text-muted-foreground leading-relaxed mb-8 animate-slide-up animate-delay-200">
-              Sinh viên ngành <strong className="text-foreground">[Ngành học]</strong>. 
+              Sinh viên <strong className="text-foreground">Khoa Kinh tế Chính trị</strong>. 
               Đây là portfolio học tập của tôi cho môn "Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo".
             </p>
 
@@ -104,8 +104,8 @@ const Index = () => {
                   <p className="font-medium text-foreground">25050365</p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground mb-1">Ngành học</p>
-                  <p className="font-medium text-foreground">[Tên Ngành Học]</p>
+                  <p className="text-sm text-muted-foreground mb-1">Khoa</p>
+                  <p className="font-medium text-foreground">Kinh tế Chính trị</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Sở thích học tập</p>
