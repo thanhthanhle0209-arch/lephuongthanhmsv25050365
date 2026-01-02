@@ -84,10 +84,11 @@ const projectsData = [
     sections: {
       objective: 'Nắm vững kỹ thuật viết prompt hiệu quả để tối ưu hóa việc sử dụng AI trong học tập, đảm bảo đầu ra chất lượng và phù hợp với nhu cầu.',
       method: [
-        'Nghiên cứu các nguyên tắc viết prompt: rõ ràng, cụ thể, có ngữ cảnh',
-        'Thực hành với cùng một câu hỏi nhưng cách viết prompt khác nhau',
-        'Phân tích và so sánh chất lượng đầu ra',
-        'Tổng hợp các bài học và xây dựng framework viết prompt cá nhân',
+        'Chọn 3 tác vụ học tập phổ biến: Tóm tắt một bài đọc/tài liệu học thuật, Giải thích một khái niệm phức tạp, Tạo bộ câu hỏi ôn tập cho một chủ đề.',
+        'Cho mỗi tác vụ, viết 3 phiên bản prompt khác nhau: Prompt cơ bản (đơn giản, ngắn gọn), Prompt cải tiến (chi tiết hơn, có cấu trúc), Prompt nâng cao (áp dụng các kỹ thuật prompt engineering như role prompting, chain-of-thought, few-shot examples).',
+        'Thử nghiệm các prompt với một công cụ AI (như ChatGPT) và so sánh kết quả.',
+        'Phân tích lý do tại sao một số prompt hiệu quả hơn các prompt khác.',
+        'Tổng hợp các nguyên tắc và mẹo viết prompt hiệu quả dựa trên kết quả thử nghiệm.',
       ],
       evidence: 'So sánh hai prompt về cùng một chủ đề:\n\n• Prompt ban đầu: "Giải thích về machine learning"\n\n• Prompt cải tiến: "Hãy giải thích machine learning cho một sinh viên năm nhất ngành Kinh tế, sử dụng ví dụ về dự đoán giá cổ phiếu, trình bày theo 3 phần: định nghĩa, cách hoạt động, và ứng dụng thực tế. Độ dài khoảng 300 từ."',
       analysis: 'Prompt cải tiến cho kết quả tốt hơn rõ rệt: nội dung phù hợp với trình độ người đọc, ví dụ liên quan đến ngành học, cấu trúc rõ ràng dễ theo dõi. Trong khi prompt ban đầu cho câu trả lời quá chung chung, thiếu tập trung và khó áp dụng vào học tập.',
