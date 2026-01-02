@@ -1,4 +1,4 @@
-import { GraduationCap, Heart, Mail, Github } from 'lucide-react';
+import { GraduationCap, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="section-container py-12">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -37,29 +37,6 @@ const Footer = () => {
               <Link to="/conclusion" className="block text-sm opacity-80 hover:opacity-100 transition-opacity">
                 Tổng kết
               </Link>
-            </div>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="font-display font-semibold mb-4">Liên hệ</h4>
-            <div className="space-y-3">
-              <a
-                href="mailto:student@university.edu.vn"
-                className="flex items-center gap-2 text-sm opacity-80 hover:opacity-100 transition-opacity"
-              >
-                <Mail className="w-4 h-4" />
-                student@university.edu.vn
-              </a>
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm opacity-80 hover:opacity-100 transition-opacity"
-              >
-                <Github className="w-4 h-4" />
-                GitHub Profile
-              </a>
             </div>
           </div>
         </div>
