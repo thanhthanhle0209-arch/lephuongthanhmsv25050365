@@ -30,6 +30,16 @@ import project3Evidence7 from '@/assets/project3-evidence-7.png';
 import project3Evidence8 from '@/assets/project3-evidence-8.png';
 import project3Evidence9 from '@/assets/project3-evidence-9.png';
 import project3Evidence10 from '@/assets/project3-evidence-10.png';
+
+// Import evidence images for project 4
+import project4Evidence1 from '@/assets/project4-evidence-1.png';
+import project4Evidence2 from '@/assets/project4-evidence-2.png';
+import project4Evidence3 from '@/assets/project4-evidence-3.png';
+import project4Evidence4 from '@/assets/project4-evidence-4.png';
+import project4Evidence5 from '@/assets/project4-evidence-5.png';
+import project4Evidence6 from '@/assets/project4-evidence-6.png';
+import project4Evidence7 from '@/assets/project4-evidence-7.png';
+
 const projectsData = [
   {
     number: 1,
@@ -130,7 +140,15 @@ const projectsData = [
         'Thực hiện dự án trong 1 tuần, sử dụng các công cụ đã chọn để: Phân công và theo dõi nhiệm vụ, Cộng tác trên tài liệu, Giao tiếp và thảo luận, Chia sẻ tài nguyên và tệp.',
         'Ghi lại quá trình sử dụng các công cụ, bao gồm ảnh chụp màn hình minh họa.',
       ],
-      evidence: 'Ảnh chụp màn hình bảng Trello với đầy đủ các thẻ công việc, nhãn màu theo độ ưu tiên (Cao/Trung bình/Thấp), checklist trong mỗi thẻ, và nhật ký hoạt động. Kèm theo sơ đồ Gantt đơn giản thể hiện timeline dự án.',
+      evidenceImages: [
+        project4Evidence1,
+        project4Evidence2,
+        project4Evidence3,
+        project4Evidence4,
+        project4Evidence5,
+        project4Evidence6,
+        project4Evidence7,
+      ],
       analysis: 'Công cụ hợp tác online giúp: (1) Minh bạch hóa tiến độ - mọi thành viên đều thấy ai đang làm gì, (2) Giảm communication overhead - thông tin tập trung một chỗ, (3) Tạo accountability - mỗi người chịu trách nhiệm với task của mình, (4) Dễ dàng điều chỉnh kế hoạch khi có thay đổi.',
       lesson: 'Công cụ chỉ là phương tiện, điều quan trọng là quy trình và cam kết của team. Một bảng Trello đẹp không có nghĩa là dự án thành công nếu không có sự tuân thủ quy trình và cập nhật thường xuyên từ tất cả thành viên.',
     },
