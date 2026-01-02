@@ -100,6 +100,10 @@ const Index = () => {
                   <p className="font-medium text-foreground">Lê Phương Thanh</p>
                 </div>
                 <div>
+                  <p className="text-sm text-muted-foreground mb-1">Mã sinh viên</p>
+                  <p className="font-medium text-foreground">25050365</p>
+                </div>
+                <div>
                   <p className="text-sm text-muted-foreground mb-1">Ngành học</p>
                   <p className="font-medium text-foreground">[Tên Ngành Học]</p>
                 </div>
