@@ -49,6 +49,17 @@ import project5Evidence5 from '@/assets/project5-evidence-5.png';
 import project5Evidence6 from '@/assets/project5-evidence-6.png';
 import project5Evidence7 from '@/assets/project5-evidence-7.png';
 
+// Import evidence images for project 6
+import project6Evidence1 from '@/assets/project6-evidence-1.png';
+import project6Evidence2 from '@/assets/project6-evidence-2.png';
+import project6Evidence3 from '@/assets/project6-evidence-3.png';
+import project6Evidence4 from '@/assets/project6-evidence-4.png';
+import project6Evidence5 from '@/assets/project6-evidence-5.png';
+import project6Evidence6 from '@/assets/project6-evidence-6.png';
+import project6Evidence7 from '@/assets/project6-evidence-7.png';
+import project6Evidence8 from '@/assets/project6-evidence-8.png';
+import project6Evidence9 from '@/assets/project6-evidence-9.png';
+
 const projectsData = [
   {
     number: 1,
@@ -201,7 +212,17 @@ const projectsData = [
         'Xây dựng bộ nguyên tắc cá nhân (5-7 nguyên tắc) về cách sử dụng AI có trách nhiệm trong học tập.',
         'Tạo một infographic minh họa "Sử dụng AI có trách nhiệm trong học thuật".',
       ],
-      evidence: 'Văn bản "Nguyên tắc sử dụng AI có trách nhiệm" của bản thân, bao gồm 7 điều khoản cụ thể, kèm theo các ví dụ minh họa cho từng nguyên tắc.',
+      evidenceImages: [
+        project6Evidence1,
+        project6Evidence2,
+        project6Evidence3,
+        project6Evidence4,
+        project6Evidence5,
+        project6Evidence6,
+        project6Evidence7,
+        project6Evidence8,
+        project6Evidence9,
+      ],
       analysis: 'Các vấn đề đạo đức chính khi sử dụng AI: đạo văn (sử dụng output AI mà không trích dẫn), gian lận (nộp bài hoàn toàn do AI tạo), thiếu minh bạch (không công khai việc sử dụng AI), phụ thuộc quá mức (mất khả năng tư duy độc lập). Việc sử dụng AI có trách nhiệm đòi hỏi sự cân bằng giữa tận dụng công nghệ và duy trì giá trị học thuật.',
       lesson: '7 nguyên tắc của tôi: (1) Luôn trích dẫn khi sử dụng AI, (2) AI là công cụ hỗ trợ, không phải người thay thế, (3) Kiểm chứng mọi thông tin từ AI, (4) Sử dụng AI để học, không phải để lách việc học, (5) Minh bạch về việc sử dụng AI trong bài nộp, (6) Phát triển tư duy độc lập song song với việc dùng AI, (7) Tôn trọng quy định của nhà trường về AI.',
     },
