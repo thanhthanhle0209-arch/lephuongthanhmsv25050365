@@ -73,7 +73,7 @@ const projectsData = [
         project2Evidence4,
         project2Evidence5,
       ],
-      analysis: 'Kết quả cho thấy bài báo IEEE đạt điểm cao nhất về độ tin cậy (tác giả có uy tín, được peer-reviewed, dẫn nguồn đầy đủ). Wikipedia có thông tin tổng quan tốt nhưng cần kiểm chứng thêm. Blog cá nhân có giá trị tham khảo thấp nhất do thiếu kiểm chứng và có thể mang tính chủ quan cao.',
+      analysis: 'Các bài báo do các chuyên gia tài chính và viện nghiên cứu công bố có độ tin cậy cao nhất nhờ quy trình kiểm duyệt nghiêm ngặt. Bài báo quốc tế cũng có tính xác thực cao, tuy nhiên cần chú ý đến thời gian và bối cảnh của từng bài để đảm bảo phù hợp với thực tế hiện tại. Wikipedia có thông tin tổng quan tốt nhưng cần kiểm chứng thêm. Blog cá nhân có giá trị tham khảo thấp nhất do thiếu kiểm chứng và có thể mang tính chủ quan cao.',
       lesson: 'Tư duy phản biện trong kỷ nguyên số không chỉ là "đừng tin vào mọi thứ bạn đọc" mà là biết cách đánh giá và so sánh các nguồn một cách có hệ thống. Kỹ năng này giúp tôi tránh được thông tin sai lệch và xây dựng nền tảng kiến thức vững chắc.',
     },
   },
