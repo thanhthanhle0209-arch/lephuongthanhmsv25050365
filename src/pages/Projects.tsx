@@ -160,10 +160,11 @@ const projectsData = [
     sections: {
       objective: 'Hiểu và thực hành quy trình sáng tạo nội dung số với sự hỗ trợ của AI, đồng thời phân định rõ vai trò của AI như công cụ hỗ trợ và vai trò chủ động của người học.',
       method: [
-        'Lên ý tưởng video giải thích "5 Tips học tập hiệu quả với AI"',
-        'Sử dụng AI để brainstorm và phát triển outline',
-        'Viết kịch bản chi tiết với sự hỗ trợ của AI',
-        'Chỉnh sửa, bổ sung góc nhìn cá nhân và finalize nội dung',
+        'Chọn một dự án sáng tạo nội dung (bài thuyết trình, bài viết, infographic, hoặc video ngắn).',
+        'Sử dụng ít nhất 3 công cụ AI tạo sinh khác nhau để hỗ trợ quá trình sáng tạo: Công cụ AI tạo văn bản (ChatGPT, Google Gemini, Claude), Công cụ AI tạo hình ảnh (DALL-E, Midjourney, Stable Diffusion), Công cụ AI hỗ trợ thiết kế (Canva AI, Adobe Firefly).',
+        'Ghi lại chi tiết quá trình sử dụng AI: Các prompt đã sử dụng và kết quả nhận được, Cách bạn chỉnh sửa và tích hợp đầu ra của AI, So sánh kết quả từ các công cụ AI khác nhau.',
+        'Hoàn thiện dự án bằng cách kết hợp đầu ra của AI với đóng góp sáng tạo của riêng bạn.',
+        'Viết phân tích về vai trò của AI trong quá trình sáng tạo, bao gồm: Những phần AI làm tốt và những phần còn hạn chế, Cách AI thay đổi quy trình sáng tạo của bạn, Các vấn đề đạo đức cần cân nhắc.',
       ],
       evidence: 'Tài liệu quy trình sáng tạo gồm: (1) Mindmap ý tưởng ban đầu (do tôi tạo), (2) Outline được AI hỗ trợ mở rộng, (3) Bản nháp kịch bản, (4) Bản chỉnh sửa cuối với highlight các phần tôi thay đổi/bổ sung.',
       analysis: 'Ưu điểm của AI: tăng tốc brainstorming (tiết kiệm 60% thời gian), gợi ý các góc nhìn mới, hỗ trợ cấu trúc nội dung logic. Hạn chế: nội dung thiếu chiều sâu cá nhân, đôi khi generic, cần fact-check kỹ. Vai trò của người học vẫn không thể thay thế: định hướng, đánh giá, và thêm "chất riêng" vào sản phẩm.',
