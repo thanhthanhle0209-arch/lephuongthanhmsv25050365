@@ -124,10 +124,11 @@ const projectsData = [
     sections: {
       objective: 'Thành thạo việc sử dụng công cụ hợp tác trực tuyến (Trello, Notion, Google Workspace) để tổ chức và thực hiện dự án nhóm một cách chuyên nghiệp.',
       method: [
-        'Mô phỏng một dự án nhóm: "Nghiên cứu xu hướng AI năm 2024"',
-        'Tạo bảng Trello với các cột: Backlog, In Progress, Review, Done',
-        'Phân công nhiệm vụ cho các thành viên (giả định) với deadline cụ thể',
-        'Thiết lập quy trình cập nhật tiến độ và review công việc',
+        'Làm việc với nhóm của bạn và cùng nhau thảo luận, lựa chọn một dự án nhỏ (ví dụ: tạo bài thuyết trình, viết báo cáo nghiên cứu, lập kế hoạch sự kiện).',
+        'Lựa chọn và sử dụng ít nhất 3 công cụ hợp tác trực tuyến: Công cụ quản lý dự án (Trello, Asana, ClickUp, Microsoft Planner...), Công cụ soạn thảo tài liệu cộng tác (Google Docs, Microsoft Office Online...), Công cụ lưu trữ và chia sẻ tệp (Google Drive, OneDrive, Dropbox...), Công cụ giao tiếp nhóm (Slack, Discord, Microsoft Teams...).',
+        'Thiết lập không gian làm việc chung và mời tất cả thành viên tham gia.',
+        'Thực hiện dự án trong 1 tuần, sử dụng các công cụ đã chọn để: Phân công và theo dõi nhiệm vụ, Cộng tác trên tài liệu, Giao tiếp và thảo luận, Chia sẻ tài nguyên và tệp.',
+        'Ghi lại quá trình sử dụng các công cụ, bao gồm ảnh chụp màn hình minh họa.',
       ],
       evidence: 'Ảnh chụp màn hình bảng Trello với đầy đủ các thẻ công việc, nhãn màu theo độ ưu tiên (Cao/Trung bình/Thấp), checklist trong mỗi thẻ, và nhật ký hoạt động. Kèm theo sơ đồ Gantt đơn giản thể hiện timeline dự án.',
       analysis: 'Công cụ hợp tác online giúp: (1) Minh bạch hóa tiến độ - mọi thành viên đều thấy ai đang làm gì, (2) Giảm communication overhead - thông tin tập trung một chỗ, (3) Tạo accountability - mỗi người chịu trách nhiệm với task của mình, (4) Dễ dàng điều chỉnh kế hoạch khi có thay đổi.',
