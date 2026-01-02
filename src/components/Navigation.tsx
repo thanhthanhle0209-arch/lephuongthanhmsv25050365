@@ -19,12 +19,9 @@ const Navigation = () => {
       <div className="section-container">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center group-hover:scale-105 transition-transform">
-              <GraduationCap className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <div className="hidden sm:block">
-              <p className="font-display font-semibold text-foreground">Digital Portfolio</p>
+          <Link to="/" className="flex items-center group">
+            <div>
+              <p className="font-display font-semibold text-foreground group-hover:text-primary transition-colors">Digital Portfolio</p>
               <p className="text-xs text-muted-foreground">Công nghệ số & AI</p>
             </div>
           </Link>
