@@ -104,6 +104,10 @@ const Index = () => {
                   <p className="font-medium text-foreground">25050365</p>
                 </div>
                 <div>
+                  <p className="text-sm text-muted-foreground mb-1">Trường</p>
+                  <p className="font-medium text-foreground">Đại học Kinh tế - Đại học Quốc gia Hà Nội</p>
+                </div>
+                <div>
                   <p className="text-sm text-muted-foreground mb-1">Khoa</p>
                   <p className="font-medium text-foreground">Kinh tế Chính trị</p>
                 </div>
