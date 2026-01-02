@@ -28,7 +28,7 @@ const ProjectCard = ({ number, title, description, sections, defaultOpen = false
 
   const projectSections: ProjectSection[] = [
     { icon: <Target className="w-5 h-5" />, title: 'Mục tiêu bài học', content: sections.objective },
-    { icon: <Wrench className="w-5 h-5" />, title: 'Cách thực hiện', content: sections.method },
+    { icon: <Wrench className="w-5 h-5" />, title: 'Yêu cầu', content: sections.method },
     { icon: <Image className="w-5 h-5" />, title: 'Minh chứng', content: sections.evidence || '', images: sections.evidenceImages },
     { icon: <BarChart3 className="w-5 h-5" />, title: 'Phân tích và đánh giá', content: sections.analysis },
     { icon: <Lightbulb className="w-5 h-5" />, title: 'Bài học rút ra', content: sections.lesson },
